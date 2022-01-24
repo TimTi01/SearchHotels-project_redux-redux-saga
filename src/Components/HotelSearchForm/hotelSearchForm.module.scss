@@ -1,0 +1,54 @@
+.app__hotelSearchFrom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 360px;
+  height: 410px;
+  background: #fff;
+  border-radius: 16px;
+
+  .hotelSearchFrom__container {
+    margin: 32px;
+
+    .inputWrap__label {
+      display: block;
+      max-width: 89%;
+      margin-bottom: 16px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+    }
+
+    .inputWrap__input {
+      width: 296px;
+      height: 50px;
+      border-radius: 4px;
+      margin-top: 7px;
+      padding-left: 16px;
+      font-size: 18px;
+      border: 1px solid #C9CACC;
+    }
+
+    .hotelSearchFrom__buttonWrap {
+      display: flex;
+      justify-content: center;
+
+      .buttonWrap__button {
+        width: 296px;
+        height: 50px;
+        font-size: 16px;
+        border-radius: 4px;
+        margin-top: 16px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        color: #fff;
+        background: linear-gradient(104.34deg, #41522E -15.34%, #BE8022 145.95%);
+        border: 0;
+        cursor: pointer;
+
+        &:active {
+          background: linear-gradient(104.34deg, #BE8022 -15.34%, #41522E 145.95%);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+.wrap {
+  padding: 15px 0;
+  border-bottom: 1px solid #87878733;
+
+  .wrap__ContainerTitleAndButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    .containerTitleAndButton__title {
+      max-width: 240px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-family: 'Roboto', sans-serif;
+      font-size: 17px;
+      font-weight: 300;
+    }
+
+    .containerTitleAndButton__button {
+      border: 0;
+      background: none;
+      cursor: pointer;
+    }
+  }
+
+  .wrap__ContainerDateAndDay {
+    display: flex;
+    margin-top: 8px;
+
+    .containerDateAndDay__date {
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      margin-right: 15px;
+      color: #878787;
+    }
+
+    .containerDateAndDay__day {
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      color: #878787;
+    }
+  }
+
+  .wrap__ratingAndPrice {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+
+    .ratingAndPrice__ContainerStars {
+      display: flex;
+
+      .containerStars__star {
+        margin-right: 3px;
+      }
+    }
+
+    .ratingAndPrice__ContainerPrice {
+      display: flex;
+
+      .containerPrice__text {
+        font-family: 'Roboto', sans-serif;
+        font-size: 11px;
+        font-weight: 300;
+        color: #878787;
+      }
+
+      .containerPrice__numbers {
+        font-family: 'Roboto', sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        margin-left: 15px;
+      }
+    }
+  }
+}

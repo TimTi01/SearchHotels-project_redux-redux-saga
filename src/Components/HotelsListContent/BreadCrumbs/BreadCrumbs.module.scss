@@ -1,0 +1,26 @@
+.Container__breadCrumbsWrap {
+  display: flex;
+  justify-content: space-between;
+
+  .breadCrumbsWrap__breadCrumbs {
+    display: flex;
+
+    .breadCrumbs__span {
+      font-family: 'Roboto', sans-serif;
+      font-size: 32px;
+      font-weight: 500;
+    }
+  }
+
+  .breadCrumbsWrap__dateWrap {
+    display: flex;
+    align-items: center;
+
+    .breadCrumbs__date {
+      font-family: 'Roboto', sans-serif;
+      font-size: 24px;
+      font-weight: 400;
+      color: #41522E;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  margin-top: 28px;
+
+  .container__text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 22px;
+  }
+
+  .container__number {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 4px 0 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #41522E;
+  }
+}

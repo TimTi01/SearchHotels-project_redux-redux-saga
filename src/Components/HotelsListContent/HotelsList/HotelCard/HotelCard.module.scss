@@ -1,0 +1,96 @@
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  max-height: 100px;
+  width: 100%;
+  padding: 16px 0;
+  border-bottom: 1px solid #87878733;
+
+  .container {
+    display: flex;
+
+    .container__avatar {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 64px;
+      width: 64px;
+      background: #41522E0D;
+      border-radius: 50%;
+    }
+
+    .container__info {
+      margin-left: 24px;
+
+      .info__title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 17px;
+        font-weight: 300;
+      }
+
+      .info__WrapDateAndDays {
+        display: flex;
+        margin-top: 3px;
+
+        .wrapDateAndDays__date {
+          margin-right: 10px;
+          font-family: 'Roboto', sans-serif;
+          font-size: 14px;
+          font-weight: 400;
+          color: #878787;
+        }
+
+        .wrapDateAndDays__days {
+          font-family: 'Roboto', sans-serif;
+          font-size: 14px;
+          font-weight: 400;
+          color: #878787;
+        }
+      }
+
+      .info__WrapStars {
+        display: inline-flex;
+        justify-content: space-between;
+        min-width: 80px;
+        margin-top: 5px;
+      }
+    }
+  }
+
+  .container__favoriteAndPrice {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .favoriteAndPrice__wrapButton {
+      display: flex;
+      justify-content: flex-end;
+
+      .wrapButton__Button {
+        border: 0;
+        background: none;
+        cursor: pointer;
+      }
+    }
+
+    .favoriteAndPrice__price {
+      display: flex;
+      align-items: center;
+
+      .price__text {
+        font-family: 'Roboto', sans-serif;
+        font-size: 11px;
+        font-weight: 300;
+        margin-right: 18px;
+        color: #878787;
+      }
+
+      .price__number {
+        font-family: 'Roboto', sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        color: #424242;
+      }
+    }
+  }
+}

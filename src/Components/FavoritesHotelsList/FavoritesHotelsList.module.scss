@@ -1,0 +1,72 @@
+.favoritesHotelsList {
+  width: 360px;
+  height: 472px;
+  background: #fff;
+  border-radius: 16px;
+  margin-top: 24px;
+
+  .favoritesHotelsList__container {
+    padding: 32px;
+
+    .container__title {
+      font-family: 'Roboto', sans-serif;
+      font-size: 24px;
+      font-weight: 500;
+    }
+
+    .favoritesHotelsList__containerButton {
+      display: flex;
+      margin-top: 32px;
+
+      .containerButton__button {
+        padding: 4px 8px;
+        background: #fff;
+        border: 1.5px solid #41522E;
+        border-radius: 4px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        cursor: pointer;
+
+        &:hover {
+          background: #bbd3a0;
+        }
+      }
+    }
+
+    .favoritesHotelsList__wrapFavoritesHotels {
+      overflow: auto;
+      padding-right: 10px;
+
+      &::-webkit-scrollbar {
+        width: 2px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background: #E7E7E7;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        width: 2px;
+        background: #41522E;
+      }
+
+      .wrapFavoritesHotels__container {
+        display: flex;
+        flex-direction: column;
+        max-height: 318px;
+        margin-top: 20px;
+
+        .container__wrapText {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 40px;
+          font-family: 'Roboto', sans-serif;
+          font-size: 20px;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
